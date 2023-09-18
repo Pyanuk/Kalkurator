@@ -1,0 +1,7 @@
+C:\Users\rhali\source\repos\ПАРА 4.1\ПАРА 4.1\obj\Debug\ПАРА 4.1.csproj.AssemblyReference.cache
+C:\Users\rhali\source\repos\ПАРА 4.1\ПАРА 4.1\obj\Debug\ПАРА 4.1.csproj.CoreCompileInputs.cache
+C:\Users\rhali\source\repos\ПАРА 4.1\ПАРА 4.1\bin\Debug\ПАРА 4.1.exe.config
+C:\Users\rhali\source\repos\ПАРА 4.1\ПАРА 4.1\bin\Debug\ПАРА 4.1.exe
+C:\Users\rhali\source\repos\ПАРА 4.1\ПАРА 4.1\bin\Debug\ПАРА 4.1.pdb
+C:\Users\rhali\source\repos\ПАРА 4.1\ПАРА 4.1\obj\Debug\ПАРА 4.1.exe
+C:\Users\rhali\source\repos\ПАРА 4.1\ПАРА 4.1\obj\Debug\ПАРА 4.1.pdb
