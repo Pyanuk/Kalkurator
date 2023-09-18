@@ -8,7 +8,8 @@ class Calculator
 
         do
         {
-            Console.WriteLine("Выберите операцию (введите номер):");
+            Console.WriteLine("Салам Алейкум");
+            Console.WriteLine("Выберите операцию (введите номер) по братски:");
             Console.WriteLine("1. Сложение");
             Console.WriteLine("2. Вычитание");
             Console.WriteLine("3. Умножение");
@@ -17,7 +18,7 @@ class Calculator
             Console.WriteLine("6. Квадратный корень");
             Console.WriteLine("7. Найти 1% от числа");
             Console.WriteLine("8. Найти факториал числа");
-            Console.WriteLine("9. Выйти");
+            Console.WriteLine("9. Auf Wiedersehen");
 
             choice = int.Parse(Console.ReadLine());
 
@@ -63,47 +64,47 @@ class Calculator
     static void Addition()
     {
         Console.WriteLine("Введите первое число:");
-        double num1 = double.Parse(Console.ReadLine());
+        double a1 = double.Parse(Console.ReadLine());
         Console.WriteLine("Введите второе число:");
-        double num2 = double.Parse(Console.ReadLine());
-        double result = num1 + num2;
+        double b2 = double.Parse(Console.ReadLine());
+        double result = a1 + b2;
         Console.WriteLine($"Результат: {result}");
     }
 
     static void Subtraction()
     {
         Console.WriteLine("Введите первое число:");
-        double num1 = double.Parse(Console.ReadLine());
+        double a1 = double.Parse(Console.ReadLine());
         Console.WriteLine("Введите второе число:");
-        double num2 = double.Parse(Console.ReadLine());
-        double result = num1 - num2;
+        double b2 = double.Parse(Console.ReadLine());
+        double result = a1 - b2;
         Console.WriteLine($"Результат: {result}");
     }
 
     static void Multiplication()
     {
         Console.WriteLine("Введите первое число:");
-        double num1 = double.Parse(Console.ReadLine());
+        double a1 = double.Parse(Console.ReadLine());
         Console.WriteLine("Введите второе число:");
-        double num2 = double.Parse(Console.ReadLine());
-        double result = num1 * num2;
+        double b2 = double.Parse(Console.ReadLine());
+        double result = a1 * b2;
         Console.WriteLine($"Результат: {result}");
     }
 
     static void Division()
     {
         Console.WriteLine("Введите первое число:");
-        double num1 = double.Parse(Console.ReadLine());
+        double a1 = double.Parse(Console.ReadLine());
         Console.WriteLine("Введите второе число:");
-        double num2 = double.Parse(Console.ReadLine());
+        double b2 = double.Parse(Console.ReadLine());
 
-        if (num2 == 0)
+        if (b2 == 0)
         {
             Console.WriteLine("Ошибка: деление на ноль.");
         }
         else
         {
-            double result = num1 / num2;
+            double result = a1 / b2;
             Console.WriteLine($"Результат: {result}");
         }
     }
@@ -111,25 +112,25 @@ class Calculator
     static void Power()
     {
         Console.WriteLine("Введите число:");
-        double num = double.Parse(Console.ReadLine());
+        double a = double.Parse(Console.ReadLine());
         Console.WriteLine("Введите степень:");
         int power = int.Parse(Console.ReadLine());
-        double result = Math.Pow(num, power);
+        double result = Math.Pow(a, power);
         Console.WriteLine($"Результат: {result}");
     }
 
     static void SquareRoot()
     {
         Console.WriteLine("Введите число:");
-        double num = double.Parse(Console.ReadLine());
+        double a = double.Parse(Console.ReadLine());
 
-        if (num < 0)
+        if (a < 0)
         {
             Console.WriteLine("Ошибка: невозможно вычислить квадратный корень из отрицательного числа.");
         }
         else
         {
-            double result = Math.Sqrt(num);
+            double result = Math.Sqrt(a);
             Console.WriteLine($"Результат: {result}");
         }
     }
@@ -137,18 +138,18 @@ class Calculator
     static void Percentage()
     {
         Console.WriteLine("Введите число:");
-        double num = double.Parse(Console.ReadLine());
-        double result = num * 0.01;
+        double a = double.Parse(Console.ReadLine());
+        double result = a * 0.01;
         Console.WriteLine($"Результат: {result}");
     }
 
     static void Factorial()
     {
         Console.WriteLine("Введите число:");
-        int num = int.Parse(Console.ReadLine());
+        int a = int.Parse(Console.ReadLine());
         int result = 1;
 
-        for (int i = 1; i <= num; i++)
+        for (int i = 1; i <= a; i++)
         {
             result *= i;
         }
